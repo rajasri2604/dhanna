@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const About = () => (
-  <section id="about" className="py-20 bg-white">
+  <section id="about" className="scroll-mt-50 py-20 bg-white">
     <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 px-6">
       
       {/* 📸 Left: Profile Image */}
