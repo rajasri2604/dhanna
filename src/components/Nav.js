@@ -56,12 +56,15 @@ const Nav = () => {
       {/* 📱 Sidebar From Left */}
       {open && (
         <div className="fixed top-0 left-0 h-screen w-64 bg-primaryPurple text-white shadow-lg z-40 md:hidden transition-transform duration-300 ease-in-out">
-          <div className="flex justify-end p-4">
+          {/* ❌ Close Icon with Border */}
+          <div className="flex justify-end p-4 border-b border-white/20">
             <button onClick={() => setOpen(false)}>
               <IoMdClose className="text-2xl text-white" />
             </button>
           </div>
-          <ul className="flex flex-col items-start px-6 space-y-4 font-medium">
+
+          {/* 📋 Sidebar Links with top padding */}
+          <ul className="flex flex-col items-start px-6 pt-4 space-y-4 font-medium">
             {links.map((link) => (
               <li key={link.name}>
                 <a
