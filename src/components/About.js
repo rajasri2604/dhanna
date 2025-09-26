@@ -34,7 +34,7 @@ const About = () => (
         </motion.h2>
 
         <p className="text-lg text-gray-700 leading-relaxed">
-          I'm <span className="font-semibold text-pink-500">Dhanna Sree V S</span>, a passionate QA Automation Engineer with <strong>3+ years of experience</strong> in building scalable, reliable test solutions across UI, API, and database layers.
+          I am <span className="font-semibold text-pink-500">Dhanna Sree V S</span>, a passionate QA Automation Engineer with <strong>3+ years of experience</strong> in building scalable, reliable test solutions across UI, API, and database layers.
         </p>
 
         <p className="text-lg text-gray-700 leading-relaxed">
@@ -50,5 +50,6 @@ const About = () => (
 );
 
 export default About;
+
 
 
