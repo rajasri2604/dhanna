@@ -10,7 +10,7 @@ import Achievements from './components/Achievements';
 import CoreCompetencies from './components/CoreCompetencies';
 import Footer from './components/Footer';
 import Connect from './components/Connect';
-import Contact from './components/Contact';
+
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
     <Certifications/>
     <Achievements/>
     <Connect/>
-    <Contact/>
+    
     <Footer/>
     </div>
   );
