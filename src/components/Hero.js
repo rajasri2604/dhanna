@@ -40,7 +40,7 @@ const Hero = () => {
         transition={{ delay: 0.5, duration: 1 }}
         className="relative z-10 text-lg md:text-xl max-w-xl mb-6 text-gray-800"
       >
-        QA Engineer with 3.2 years of experience, I specialize in ensuring the delivery of high quality software through rigorous testing methodologies. 
+        QA Engineer with 3+ years of experience, I specialize in ensuring the delivery of high quality software through rigorous testing methodologies. 
               </motion.p>
 
       <motion.a
@@ -56,3 +56,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
