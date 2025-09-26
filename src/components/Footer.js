@@ -9,10 +9,11 @@ const Footer = () => (
       </span>
     </p>
     <p className="mt-1">
-      © {new Date().getFullYear()} Dhanna sree V S. All rights reserved.
+      © {new Date().getFullYear()} Dhanna Sree V S. All rights reserved.
     </p>
   </footer>
 );
 
 export default Footer;
+
 
