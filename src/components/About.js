@@ -42,7 +42,7 @@ const About = () => (
         </p>
 
         <p className="text-lg text-gray-700 leading-relaxed">
-          With a strong focus on continuous learning, I actively intergrate modern tools like <strong>n8n, GitHub Copilot</strong>, and <strong>Appium</strong> into my testing workflows to enhance automation and scalability. For me, quality isn’t just about finding bugs—it’s about building trust, speed, and excellence across the SDLC.
+          With a strong focus on continuous learning, I actively intergrate modern tools like <strong>n8n and GitHub Copilot</strong> <strong></strong> into my testing workflows to enhance automation and scalability. For me, quality isn’t just about finding bugs - it’s about building trust, speed, and excellence across the SDLC.
         </p>
       </div>
     </div>
@@ -50,4 +50,5 @@ const About = () => (
 );
 
 export default About;
+
 
