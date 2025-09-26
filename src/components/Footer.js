@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => (
   <footer className="py-6 bg-primaryPurple text-center text-white text-sm md:text-base">
     <p>
-      Designed & Developed by{' '}
+     
       <span className="font-semibold text-white hover:text-lightPurple transition duration-300">
         Dhanna sree V S
       </span>
@@ -15,3 +15,4 @@ const Footer = () => (
 );
 
 export default Footer;
+
